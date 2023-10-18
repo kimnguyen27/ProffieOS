@@ -2059,7 +2059,7 @@ SaberFett263Buttons() : PropBase() {}
     } else {
       // Loop default track if tracks not found
 #ifndef FETT263_TRACK_PLAYER_NO_PROMPTS
-      sound_library_.SayLoop();
+      // sound_library_.SayLoop();
 #endif
       track_num_ = 0;
       track_mode_ = PLAYBACK_LOOP;

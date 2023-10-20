@@ -5,7 +5,7 @@
 const unsigned int maxLedsPerStrip = 244;
 #define EXTRA_COLOR_BUFFER_SPACE 70
 #define VOLUME 2000
-#define BOOT_VOLUME 70
+#define BOOT_VOLUME 90
 #define CLASH_THRESHOLD_G 0.6
 #define ENABLE_AUDIO
 #define ENABLE_MOTION
@@ -24,7 +24,7 @@ const unsigned int maxLedsPerStrip = 244;
 #define FETT263_HOLD_BUTTON_OFF
 #define FETT263_LOCKUP_DELAY 200
 #define FETT263_BM_CLASH_DETECT 6
-#define FETT263_SWING_ON_SPEED 400
+#define FETT263_SWING_ON_SPEED 500
 #define FETT263_SWING_ON
 #define FETT263_SWING_ON_NO_BM
 #define FETT263_TWIST_ON
@@ -41,7 +41,6 @@ const unsigned int maxLedsPerStrip = 244;
 #ifdef CONFIG_PROP
 #include "../props/saber_fett263_buttons.h"
 #endif
-
 
 
 #ifdef CONFIG_PRESETS
@@ -75,4 +74,5 @@ BladeConfig blades[] = {
 
 #ifdef CONFIG_BUTTONS
 Button PowerButton(BUTTON_POWER, powerButtonPin, "pow");
+Button AuxButton(BUTTON_AUX, auxPin, "aux");
 #endif

@@ -25,8 +25,8 @@
 |  Add the slashes to any that you are not using.                   |
 \*-----------------------------------------------------------------*/
 
-// #define CONFIG_FILE "config/proffieboard_v3_owk3_config.h"
-#define CONFIG_FILE "config/proffieboard_v3_qgj_config.h"
+#define CONFIG_FILE "config/proffieboard_v3_owk3_config.h"
+// #define CONFIG_FILE "config/proffieboard_v3_qgj_config.h"
 
 // #define CONFIG_FILE "config/default_proffieboard_config.h"
 // #define CONFIG_FILE "config/default_v3_config.h"

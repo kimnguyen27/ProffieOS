@@ -6,7 +6,7 @@ const unsigned int maxLedsPerStrip = 244;
 #define EXTRA_COLOR_BUFFER_SPACE 70
 #define VOLUME 2000
 #define BOOT_VOLUME 90
-#define CLASH_THRESHOLD_G 0.6
+#define CLASH_THRESHOLD_G 0.5
 #define ENABLE_AUDIO
 #define ENABLE_MOTION
 #define ENABLE_WS2811

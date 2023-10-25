@@ -177,7 +177,7 @@ Preset presets[] = {
     }
 };
 BladeConfig blades[] = {
-    { 0, WS281XBladePtr<244, bladePin, Color8::GRB, PowerPINS<bladePowerPin2, bladePowerPin3> >(), CONFIGARRAY(presets) },
+    { 0, WS281XBladePtr<122, bladePin, Color8::GRB, PowerPINS<bladePowerPin2, bladePowerPin3> >(), CONFIGARRAY(presets) },
 };
 #endif
 

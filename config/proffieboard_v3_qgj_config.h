@@ -2,7 +2,7 @@
 #include "proffieboard_v3_config.h"
 #define NUM_BLADES 1
 #define NUM_BUTTONS 1
-const unsigned int maxLedsPerStrip = 244;
+const unsigned int maxLedsPerStrip = 122;
 #define EXTRA_COLOR_BUFFER_SPACE 70
 #define VOLUME 2000
 #define BOOT_VOLUME 90

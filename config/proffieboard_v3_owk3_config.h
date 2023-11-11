@@ -14,6 +14,7 @@ const unsigned int maxLedsPerStrip = 122;
 #define MOTION_TIMEOUT 60 * 15 * 1000
 #define DISABLE_BASIC_PARSER_STYLES
 #define DISABLE_DIAGNOSTIC_COMMANDS
+#define SHARED_POWER_PINS
 #define SAVE_VOLUME
 #define SAVE_PRESET
 #define NO_REPEAT_RANDOM
